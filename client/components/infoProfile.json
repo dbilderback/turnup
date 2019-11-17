@@ -1,0 +1,92 @@
+{
+  "container": {
+    "class": "container",
+    "style": {
+      "position": "absolute",
+      "left": "25%",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#eee",
+      "height": "100%",
+      "width": 200
+    }
+  },
+  "page": [
+    {
+      "id": "image",
+      "type": "picture",
+      "source": "https://storybird.s3.amazonaws.com/artwork/zeromojo/square/turnip.jpeg",
+      "style": {
+        "height": 50,
+        "width": 50
+      }
+    },
+    {
+      "id": "username",
+      "type": "text",
+      "content": "Email Address",
+      "properties": {
+        "first": {
+          "type": "string",
+          "title": "Title",
+          "default": "A new task"
+        }
+      },
+      "style": {
+        "fontSize": 30,
+        "color": "blue"
+      }
+    },
+    {
+      "id": "phone",
+      "class": "integer",
+      "type": "integer",
+      "content": 4444444444,
+      "style": {
+        "fontSize": 30,
+        "color": "red"
+      }
+    },
+    {
+      "id": "firstname",
+      "class": "text",
+      "type": "text",
+      "content": "John",
+      "style": {
+        "fontSize": 30,
+        "color": "black"
+      }
+    },
+    {
+      "id": "lastname",
+      "class": "text",
+      "type": "text",
+      "content": "Doe",
+      "style": {
+        "fontSize": 30,
+        "color": "black"
+      }
+    },
+    {
+      "id": "picture",
+      "class": "text",
+      "type": "photo",
+      "content": "This is some text",
+      "style": {
+        "fontSize": 30,
+        "color": "black"
+      }
+    },
+    {
+      "id": "zip",
+      "class": "integer",
+      "type": "integer",
+      "content": 30564,
+      "style": {
+        "fontSize": 30,
+        "color": "black"
+      }
+    }
+  ]
+}

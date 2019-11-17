@@ -1,0 +1,44 @@
+
+{
+  "container": {
+    "class": "container",
+    "style": {
+      "position": "absolute",
+      "top": 200,
+      "left": "25%",
+      "display": "flex",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#eee",
+      "height": 100,
+      "width": 200
+    }
+  },
+  "page": [
+    {
+      "id": "header",
+      "type": "text",
+      "content": "This ia header",
+      "style": {
+        "fontSize": 20,
+        "color": "blue"
+      }
+    },
+
+    {
+      "id": "body",
+      "class": "text",
+      "type": "text",
+      "content": "This is some text",
+      "style": {
+        "color": "red"
+      }
+    },
+
+    {
+      "id": "button",
+      "type": "button",
+      "title": "close"
+    }
+  ]
+}
